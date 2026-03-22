@@ -1,0 +1,48 @@
+# Default: arquivos de texto usam LF no repositório
+* text=auto eol=lf
+
+# Shell scripts sempre com LF
+*.sh text eol=lf
+
+# Windows scripts com CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Java / Kotlin / config / web
+*.java text eol=lf
+*.kt text eol=lf
+*.kts text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.properties text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+
+# Docker / Maven / Gradle
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+*.gradle text eol=lf
+gradlew text eol=lf
+
+# Binários: sem diff textual
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.jar binary
+*.war binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.7z binary

@@ -4,7 +4,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 perf.data
-.gitattributes
 
 ### STS ###
 .apt_generated
@@ -16,7 +15,7 @@ perf.data
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -33,3 +32,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Logs / OS ###
+*.log
+.DS_Store
+
+### Local env ###
+.env
+.env.*
