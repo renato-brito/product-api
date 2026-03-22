@@ -1,14 +1,18 @@
-# Default: arquivos de texto usam LF no repositório
+# Detecta texto automaticamente e normaliza no repositório
 * text=auto
 
-# Shell scripts sempre com LF
+# Scripts Unix/Linux sempre com LF
 *.sh text eol=lf
+mvnw text eol=lf
+gradlew text eol=lf
 
-# Windows scripts com CRLF
+# Scripts Windows sempre com CRLF
 *.bat text eol=crlf
 *.cmd text eol=crlf
+mvnw.cmd text eol=crlf
+gradlew.bat text eol=crlf
 
-# Java / Kotlin / config / web
+# Arquivos comuns do projeto com LF
 *.java text eol=lf
 *.kt text eol=lf
 *.kts text eol=lf
@@ -25,12 +29,8 @@
 *.css text eol=lf
 *.scss text eol=lf
 *.html text eol=lf
-
-# Docker / Maven / Gradle
 Dockerfile text eol=lf
 *.dockerfile text eol=lf
-*.gradle text eol=lf
-gradlew text eol=lf
 
 # Binários: sem diff textual
 *.png binary
