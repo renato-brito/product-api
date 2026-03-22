@@ -1,5 +1,5 @@
 # Default: arquivos de texto usam LF no repositório
-* text=auto eol=lf
+* text=auto
 
 # Shell scripts sempre com LF
 *.sh text eol=lf
